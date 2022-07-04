@@ -1,0 +1,155 @@
+header{
+	background: #BBBBBB;
+	padding: 20px 0;
+}
+
+.caixa {
+	width: 940px;
+	position: relative;
+	margin: 0 auto;
+}
+
+nav{
+	position: absolute;
+	top: 110px;
+	right: 0;
+}
+
+nav li {
+	display: inline; /* para colocar os itens em linha */
+	margin: 00 00 00 15px; /* para criar espaço a esquerda dos itens da lista */
+}
+
+nav a {
+	text-transform: uppercase; /*para passar o texto para maiúsculo */
+	color: #000000; /* mudar a cor */
+	font-weight: bolder; /* peso da fonte. Ou seja, negrito */
+	font-size: 22px; /* tamanho da fonte */
+	text-decoration: none; /* none para tirar o sublinhado do texto */
+}
+
+nav a:hover {
+	color: #C78C19;
+	text-decoration: underline;
+}
+
+.produtos {
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+.produtos li {
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	padding: 50px 0;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	/*border-color: #000000;
+	border-width: 2px;
+	border-style: solid; */
+	border: 2px solid #000000;
+	border-radius: 10px; /* para arredondar os cantos da borda*/
+}
+
+.produtos li:hover {
+	border-color: #C78C19;
+}
+
+.produtos li:active {
+	border-color: #088C19;
+}
+
+.produtos li:hover h2 {
+	font-size: 35px;
+}
+
+.produtos h2 {
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.produto-descricao {
+	font-size: 18px;
+}
+
+.produto-preco {
+	font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+
+}
+
+footer {
+	text-align: center;
+	background: url("bg.jpg"); /* para colocar imagem de fundo no elemento ao invés de cor */
+	padding: 40px 0;
+}
+
+.copyright {
+	color: #FFFFFF;
+	font-size: 13px;
+	margin-top: 20px;
+}
+
+main {
+	width: 940px;
+	margin: 0 auto;
+}
+
+form {
+	margin: 40px 0;
+}
+
+form label, form legend{
+	display: block;
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+
+/*form input, form textarea{*/ /* a vírgula é para indicar que essas configurações são para todos os seletores ali indicados */
+.input-padrao {
+	display: block;
+	margin: 0 0 10px;
+	padding: 7px 25px;
+	width: 50%;
+}
+
+.checkbox {
+	margin: 20px 0;
+}
+
+.enviar {
+	width: 40%;
+	padding: 10px 0;
+	background: orange;
+	color: white;
+	font-weight: bold;
+	font-size: 15px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+}
+
+.enviar:hover{
+	background: darkorange;
+	transform: scale(1.2); /* Aumenta em 20 porcento dos o tamanho e conteúdo do botão ao passarmos o mouse por ele */
+}
+
+table {
+	margin: 20px 40px;
+}
+
+thead {
+	background: #555555;
+	color: white;
+	font-weight: bold;
+}
+
+td, th {
+	border: 1px solid #000000;
+	padding: 7px 10px ; 
+}
