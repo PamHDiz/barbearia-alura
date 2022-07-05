@@ -89,7 +89,7 @@ nav a:hover {
 
 footer {
 	text-align: center;
-	background: url("img/bg.jpg"); /* para colocar imagem de fundo no elemento ao invés de cor */
+	background: url("bg.jpg"); /* para colocar imagem de fundo no elemento ao invés de cor */
 	padding: 40px 0;
 }
 
