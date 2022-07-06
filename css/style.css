@@ -163,6 +163,7 @@ td, th {
 	font-size: 2em;
 	margin: 0 0 1em;
 	clear: left; /* Este comando serve para cancelar o efeito que a propriedade float causou aqui*/
+	color: rgba(0,0,0, 0.4); /* Aplicando opacidade na cor*/
 }
 
 /*
@@ -246,6 +247,12 @@ Exemplo de como usar os pseudo-elementos
 
 .imagem-beneficios {
 	width: 60%;
+	opacity: 1; /* Aplicação de opacidade no elemento*/
+	transition: 400ms;
+}
+
+.imagem-beneficios:hover {
+	opacity: 0.7;
 }
 
 .video {
